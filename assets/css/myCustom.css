@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>https://mynext-car.web.app/assets/css/assets/css/myCustom.css</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css"></head><body id="viewsource" class="highlight" style="tab-size: 4"><pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en</a>"&gt;</span><span>
+<span id="line3"></span>
+<span id="line4"></span></span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
+<span id="line5"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">charset</span>="<a class="attribute-value">UTF-8</a>"&gt;</span><span>
+<span id="line6"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">viewport</a>" <span class="attribute-name">content</span>="<a class="attribute-value">width=device-width, initial-scale=1.0</a>"&gt;</span><span>
+<span id="line7"></span>
+<span id="line8"></span>    </span><span class="comment">&lt;!--=============== FAVICON ===============--&gt;</span><span>
+<span id="line9"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">shortcut icon</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/favicon.png">assets/img/favicon.png</a>" <span class="attribute-name">type</span>="<a class="attribute-value">image/x-icon</a>" <span class="attribute-name">class</span>="<a class="attribute-value">favicon</a>"&gt;</span><span>
+<span id="line10"></span>
+<span id="line11"></span>    </span><span class="comment">&lt;!--=============== REMIX ICONS ===============--&gt;</span><span>
+<span id="line12"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css</a>" <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>"&gt;</span><span>
+<span id="line13"></span>
+<span id="line14"></span>    </span><span class="comment">&lt;!--=============== SWIPER CSS ===============--&gt;</span><span>
+<span id="line15"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/css/swiper-bundle.min.css">assets/css/swiper-bundle.min.css</a>"&gt;</span><span>
+<span id="line16"></span>
+<span id="line17"></span>    </span><span class="comment">&lt;!--=============== CSS ===============--&gt;</span><span>
+<span id="line18"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/css/styles.css">assets/css/styles.css</a>"&gt;</span><span>
+<span id="line19"></span>    </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/css/myCustom.css">assets/css/myCustom.css</a>"&gt;</span><span>
+<span id="line20"></span>
+<span id="line21"></span>    </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Super car website - AbdullahMoin</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line22"></span></span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
+<span id="line23"></span>
+<span id="line24"></span></span><span>&lt;<span class="start-tag">body</span>&gt;</span><span>
+<span id="line25"></span>    </span><span class="comment">&lt;!--==================== HEADER ====================--&gt;</span><span>
+<span id="line26"></span>    </span><span>&lt;<span class="start-tag">header</span> <span class="attribute-name">class</span>="<a class="attribute-value">header</a>" <span class="attribute-name">id</span>="<a class="attribute-value">header</a>"&gt;</span><span>
+<span id="line27"></span>        </span><span>&lt;<span class="start-tag">nav</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav container</a>"&gt;</span><span>
+<span id="line28"></span>            </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">nav__logo</a>"&gt;</span><span>
+<span id="line29"></span>                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-steering-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line30"></span>                NextCar
+<span id="line31"></span>            </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line32"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__menu</a>" <span class="attribute-name">id</span>="<a class="attribute-value">nav-menu</a>"&gt;</span><span>
+<span id="line33"></span>                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__list</a>"&gt;</span><span>
+<span id="line34"></span>                    </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__item</a>"&gt;</span><span>
+<span id="line35"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#home">#home</a>" <span class="attribute-name">class</span>="<a class="attribute-value">nav__link active-link</a>"&gt;</span><span>Home</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line36"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line37"></span>                    </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__item</a>"&gt;</span><span>
+<span id="line38"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#about">#about</a>" <span class="attribute-name">class</span>="<a class="attribute-value">nav__link </a>"&gt;</span><span>About</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line39"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line40"></span>                    </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__item</a>"&gt;</span><span>
+<span id="line41"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#popular">#popular</a>" <span class="attribute-name">class</span>="<a class="attribute-value">nav__link</a>"&gt;</span><span>Super Cars</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line42"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line43"></span>                    </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__item</a>"&gt;</span><span>
+<span id="line44"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#featured">#featured</a>" <span class="attribute-name">class</span>="<a class="attribute-value">nav__link</a>"&gt;</span><span>Featured</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line45"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line46"></span>                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line47"></span>
+<span id="line48"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__close</a>" <span class="attribute-name">id</span>="<a class="attribute-value">nav-close</a>"&gt;</span><span>
+<span id="line49"></span>                    </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-close-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line50"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line51"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line52"></span>
+<span id="line53"></span>            </span><span class="comment">&lt;!-- Togglar Button --&gt;</span><span>
+<span id="line54"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">nav__toggle</a>" <span class="attribute-name">id</span>="<a class="attribute-value">nav-toggle</a>"&gt;</span><span>
+<span id="line55"></span>                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-menu-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line56"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line57"></span>
+<span id="line58"></span>        </span><span>&lt;/<span class="end-tag">nav</span>&gt;</span><span>
+<span id="line59"></span>    </span><span>&lt;/<span class="end-tag">header</span>&gt;</span><span>
+<span id="line60"></span>
+<span id="line61"></span>    </span><span class="comment">&lt;!--************* MAIN CODE ****************--&gt;</span><span>
+<span id="line62"></span>
+<span id="line63"></span>    </span><span>&lt;<span class="start-tag">main</span> <span class="attribute-name">class</span>="<a class="attribute-value">main</a>"&gt;</span><span>
+<span id="line64"></span>        </span><span class="comment">&lt;!--==================== HOME ====================--&gt;</span><span>
+<span id="line65"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">home section</a>" <span class="attribute-name">id</span>="<a class="attribute-value">home</a>"&gt;</span><span>
+<span id="line66"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__big</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line67"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__small</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line68"></span>
+<span id="line69"></span>
+<span id="line70"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__container container grid</a>"&gt;</span><span>
+<span id="line71"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__data</a>"&gt;</span><span>
+<span id="line72"></span>                    </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__title</a>"&gt;</span><span>
+<span id="line73"></span>                        Pick Your Best Car
+<span id="line74"></span>                    </span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line75"></span>                    </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__subtitle</a>"&gt;</span><span>
+<span id="line76"></span>                        Ferrari 458
+<span id="line77"></span>                    </span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line78"></span>                    </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__elec</a>"&gt;</span><span>
+<span id="line79"></span>                        </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-flashlight-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line80"></span>                        RELENTLESS FORCE
+<span id="line81"></span>                    </span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line82"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line83"></span>
+<span id="line84"></span>                </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/home5.png">assets/img/home5.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">home__img</a>"&gt;</span><span>
+<span id="line85"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car</a>"&gt;</span><span>
+<span id="line86"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-data</a>"&gt;</span><span>
+<span id="line87"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-icon</a>"&gt;</span><span>
+<span id="line88"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-temp-cold-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line89"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line90"></span>                        </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-number</a>"&gt;</span><span>3.0s</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line91"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-name</a>"&gt;</span><span>0-100 km/h</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line92"></span>
+<span id="line93"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line94"></span>
+<span id="line95"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-data</a>"&gt;</span><span>
+<span id="line96"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-icon</a>"&gt;</span><span>
+<span id="line97"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line98"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line99"></span>                        </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-number</a>"&gt;</span><span>419</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line100"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-name</a>"&gt;</span><span>POWER (KW)</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line101"></span>
+<span id="line102"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line103"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-data</a>"&gt;</span><span>
+<span id="line104"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-icon</a>"&gt;</span><span>
+<span id="line105"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-flashlight-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line106"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line107"></span>                        </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-number</a>"&gt;</span><span>325 km/h</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line108"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__car-name</a>"&gt;</span><span>MAX. SPEED</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line109"></span>
+<span id="line110"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line111"></span>
+<span id="line112"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line113"></span>
+<span id="line114"></span>                </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">home__button</a>"&gt;</span><span>START</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line115"></span>
+<span id="line116"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg</a>"&gt;</span><span>
+<span id="line117"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg-navBtn active</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line118"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg-navBtn</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line119"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg-navBtn</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line120"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg-navBtn</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line121"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">slider__bg-navBtn</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line122"></span>                
+<span id="line123"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line124"></span>
+<span id="line125"></span>
+<span id="line126"></span>
+<span id="line127"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line128"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">home__social</a>"&gt;</span><span>
+<span id="line129"></span>                </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">home__social-icon</a>"&gt;</span><span></span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-facebook-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line130"></span>                </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">home__social-icon</a>"&gt;</span><span></span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-instagram-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line131"></span>                </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">home__social-icon</a>"&gt;</span><span></span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-twitter-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line132"></span>
+<span id="line133"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line134"></span>
+<span id="line135"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line136"></span>         </span><span class="comment">&lt;!--==================== GALLERY BANNER ====================--&gt;</span><span>
+<span id="line137"></span>         </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">gallery section</a>"&gt;</span><span>
+<span id="line138"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">gallery__container container grid</a>"&gt;</span><span>
+<span id="line139"></span>                </span><span>&lt;<span class="start-tag">video</span> <span class="attribute-name">class</span>="<a class="attribute-value">video__slide active</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/video/vid_1.mp4">assets/video/vid_1.mp4</a>" <span class="attribute-name">autoplay</span> <span class="attribute-name">muted</span> <span class="attribute-name">loop</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">video</span>&gt;</span><span>
+<span id="line140"></span>                </span><span>&lt;<span class="start-tag">video</span> <span class="attribute-name">class</span>="<a class="attribute-value">video__slide</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/video/vid_4.mp4">assets/video/vid_4.mp4</a>" <span class="attribute-name">autoplay</span> <span class="attribute-name">muted</span> <span class="attribute-name">loop</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">video</span>&gt;</span><span>
+<span id="line141"></span>                </span><span>&lt;<span class="start-tag">video</span> <span class="attribute-name">class</span>="<a class="attribute-value">video__slide</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/video/vid_3.mp4">assets/video/vid_3.mp4</a>" <span class="attribute-name">autoplay</span> <span class="attribute-name">muted</span> <span class="attribute-name">loop</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">video</span>&gt;</span><span>
+<span id="line142"></span>                </span><span>&lt;<span class="start-tag">video</span> <span class="attribute-name">class</span>="<a class="attribute-value">video__slide</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/video/vid_2.mp4">assets/video/vid_2.mp4</a>" <span class="attribute-name">autoplay</span> <span class="attribute-name">muted</span> <span class="attribute-name">loop</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">video</span>&gt;</span><span>
+<span id="line143"></span>                </span><span>&lt;<span class="start-tag">video</span> <span class="attribute-name">class</span>="<a class="attribute-value">video__slide</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/video/vid_5.mp4">assets/video/vid_5.mp4</a>" <span class="attribute-name">autoplay</span> <span class="attribute-name">muted</span> <span class="attribute-name">loop</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">video</span>&gt;</span><span>
+<span id="line144"></span>            
+<span id="line145"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line146"></span>
+<span id="line147"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line148"></span>
+<span id="line149"></span>        </span><span class="comment">&lt;!--==================== ABOUT ====================--&gt;</span><span>
+<span id="line150"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">about section</a>" <span class="attribute-name">id</span>="<a class="attribute-value">about</a>"&gt;</span><span>
+<span id="line151"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__container container grid</a>"&gt;</span><span>
+<span id="line152"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__group</a>"&gt;</span><span>
+<span id="line153"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/about.png">assets/img/about.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">about__img</a>"&gt;</span><span>
+<span id="line154"></span>
+<span id="line155"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__card</a>"&gt;</span><span>
+<span id="line156"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__card-title</a>"&gt;</span><span>2.500+</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line157"></span>                        </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__card-description</a>"&gt;</span><span>Supercharges placed along popular routes</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line158"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line159"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line160"></span>
+<span id="line161"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__data</a>"&gt;</span><span>
+<span id="line162"></span>                    </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">section__title about__title</a>"&gt;</span><span>Machines With </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> Future Technology</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line163"></span>                    </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">about__description</a>"&gt;</span><span>See the future with high-performance electric cars produced by
+<span id="line164"></span>                        renowned brands. They feature futuristic builds and designs with
+<span id="line165"></span>                        new and innovative platforms that last a long time.</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line166"></span>
+<span id="line167"></span>                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">button</a>"&gt;</span><span>Know More</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line168"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line169"></span>
+<span id="line170"></span>
+<span id="line171"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line172"></span>
+<span id="line173"></span>
+<span id="line174"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line175"></span>
+<span id="line176"></span>        </span><span class="comment">&lt;!--==================== POPULAR ====================--&gt;</span><span>
+<span id="line177"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular section</a>" <span class="attribute-name">id</span>="<a class="attribute-value">popular</a>"&gt;</span><span>
+<span id="line178"></span>            </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">section__title</a>"&gt;</span><span>
+<span id="line179"></span>                Choose Your Electric Car </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> of Porshche Brand
+<span id="line180"></span>            </span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line181"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__container container swiper</a>"&gt;</span><span>
+<span id="line182"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">swiper-wrapper</a>"&gt;</span><span>
+<span id="line183"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__card swiper-slide</a>"&gt;</span><span>
+<span id="line184"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line185"></span>
+<span id="line186"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line187"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__subtitle</a>"&gt;</span><span>Turbo S</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line188"></span>
+<span id="line189"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/popular1.png">assets/img/popular1.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">popular__img</a>"&gt;</span><span>
+<span id="line190"></span>
+<span id="line191"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data</a>"&gt;</span><span>
+<span id="line192"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line193"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 3.7 sec
+<span id="line194"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line195"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line196"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-exchange-funds-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 356 Km/h
+<span id="line197"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line198"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line199"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-charging-pile-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Electric
+<span id="line200"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line201"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line202"></span>
+<span id="line203"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__price</a>"&gt;</span><span>$175,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line204"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button popular__button</a>"&gt;</span><span>
+<span id="line205"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line206"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line207"></span>
+<span id="line208"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line209"></span>
+<span id="line210"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__card swiper-slide</a>"&gt;</span><span>
+<span id="line211"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line212"></span>
+<span id="line213"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line214"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__subtitle</a>"&gt;</span><span>Taycan</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line215"></span>
+<span id="line216"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/popular2.png">assets/img/popular2.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">popular__img</a>"&gt;</span><span>
+<span id="line217"></span>
+<span id="line218"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data</a>"&gt;</span><span>
+<span id="line219"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line220"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 3.7 sec
+<span id="line221"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line222"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line223"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-exchange-funds-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 356 Km/h
+<span id="line224"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line225"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line226"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-charging-pile-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Electric
+<span id="line227"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line228"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line229"></span>
+<span id="line230"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__price</a>"&gt;</span><span>$114,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line231"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button popular__button</a>"&gt;</span><span>
+<span id="line232"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line233"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line234"></span>
+<span id="line235"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line236"></span>
+<span id="line237"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__card swiper-slide</a>"&gt;</span><span>
+<span id="line238"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line239"></span>
+<span id="line240"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line241"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__subtitle</a>"&gt;</span><span>Turbo S Cross</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line242"></span>
+<span id="line243"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/popular3.png">assets/img/popular3.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">popular__img</a>"&gt;</span><span>
+<span id="line244"></span>
+<span id="line245"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data</a>"&gt;</span><span>
+<span id="line246"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line247"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 3.7 sec
+<span id="line248"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line249"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line250"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-exchange-funds-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 356 Km/h
+<span id="line251"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line252"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line253"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-charging-pile-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Electric
+<span id="line254"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line255"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line256"></span>
+<span id="line257"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__price</a>"&gt;</span><span>$150,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line258"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button popular__button</a>"&gt;</span><span>
+<span id="line259"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line260"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line261"></span>
+<span id="line262"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line263"></span>
+<span id="line264"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__card swiper-slide</a>"&gt;</span><span>
+<span id="line265"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line266"></span>
+<span id="line267"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line268"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__subtitle</a>"&gt;</span><span>Boxster 718</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line269"></span>
+<span id="line270"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/popular4.png">assets/img/popular4.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">popular__img</a>"&gt;</span><span>
+<span id="line271"></span>
+<span id="line272"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data</a>"&gt;</span><span>
+<span id="line273"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line274"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 3.7 sec
+<span id="line275"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line276"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line277"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-exchange-funds-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 356 Km/h
+<span id="line278"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line279"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line280"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-charging-pile-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Electric
+<span id="line281"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line282"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line283"></span>
+<span id="line284"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__price</a>"&gt;</span><span>$125,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line285"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button popular__button</a>"&gt;</span><span>
+<span id="line286"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line287"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line288"></span>
+<span id="line289"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line290"></span>
+<span id="line291"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__card swiper-slide</a>"&gt;</span><span>
+<span id="line292"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line293"></span>
+<span id="line294"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line295"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__subtitle</a>"&gt;</span><span>Cayman</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line296"></span>
+<span id="line297"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/popular5.png">assets/img/popular5.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">popular__img</a>"&gt;</span><span>
+<span id="line298"></span>
+<span id="line299"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data</a>"&gt;</span><span>
+<span id="line300"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line301"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-dashboard-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 3.7 sec
+<span id="line302"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line303"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line304"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-exchange-funds-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> 356 Km/h
+<span id="line305"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line306"></span>                            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__data-group</a>"&gt;</span><span>
+<span id="line307"></span>                                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-charging-pile-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Electric
+<span id="line308"></span>                            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line309"></span>                        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line310"></span>
+<span id="line311"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">popular__price</a>"&gt;</span><span>$128,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line312"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button popular__button</a>"&gt;</span><span>
+<span id="line313"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line314"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line315"></span>
+<span id="line316"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line317"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line318"></span>
+<span id="line319"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">swiper-pagination</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line320"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line321"></span>
+<span id="line322"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line323"></span>
+<span id="line324"></span>        </span><span class="comment">&lt;!--==================== FEATURES ====================--&gt;</span><span>
+<span id="line325"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">features section</a>"&gt;</span><span>
+<span id="line326"></span>            </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">section__title</a>"&gt;</span><span>
+<span id="line327"></span>                More Features
+<span id="line328"></span>            </span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line329"></span>
+<span id="line330"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__container container grid</a>"&gt;</span><span>
+<span id="line331"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__group</a>"&gt;</span><span>
+<span id="line332"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/features.png">assets/img/features.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">features__img</a>"&gt;</span><span>
+<span id="line333"></span>
+<span id="line334"></span>
+<span id="line335"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card features__card-1</a>"&gt;</span><span>
+<span id="line336"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-title</a>"&gt;</span><span>800v</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line337"></span>                        </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-description</a>"&gt;</span><span>Turbo </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> Chargin</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line338"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line339"></span>
+<span id="line340"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card features__card-2</a>"&gt;</span><span>
+<span id="line341"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-title</a>"&gt;</span><span>350</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line342"></span>                        </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-description</a>"&gt;</span><span>Km </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> Range</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line343"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line344"></span>                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card features__card-3</a>"&gt;</span><span>
+<span id="line345"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-title</a>"&gt;</span><span>480</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line346"></span>                        </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">features__card-description</a>"&gt;</span><span>Km </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> Travel</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line347"></span>                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line348"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line349"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line350"></span>
+<span id="line351"></span>            </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/map.svg">assets/img/map.svg</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">features__map</a>"&gt;</span><span>
+<span id="line352"></span>
+<span id="line353"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line354"></span>
+<span id="line355"></span>        </span><span class="comment">&lt;!--==================== FEATURED ====================--&gt;</span><span>
+<span id="line356"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured section</a>" <span class="attribute-name">id</span>="<a class="attribute-value">featured</a>"&gt;</span><span>
+<span id="line357"></span>            </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">section__title</a>"&gt;</span><span>Featured Luxury Cars</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line358"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__container container</a>"&gt;</span><span>
+<span id="line359"></span>                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__filters</a>"&gt;</span><span>
+<span id="line360"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line361"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__item active-featured</a>" <span class="attribute-name">data-filter</span>="<a class="attribute-value">all</a>"&gt;</span><span>
+<span id="line362"></span>                            </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>All</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line363"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line364"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line365"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line366"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__item</a>" <span class="attribute-name">data-filter</span>="<a class="attribute-value">.tesla</a>"&gt;</span><span>
+<span id="line367"></span>                            </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo3.png">assets/img/logo3.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>"&gt;</span><span>
+<span id="line368"></span>
+<span id="line369"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line370"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line371"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line372"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__item</a>" <span class="attribute-name">data-filter</span>="<a class="attribute-value">.audi</a>"&gt;</span><span>
+<span id="line373"></span>                            </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo2.png">assets/img/logo2.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>"&gt;</span><span>
+<span id="line374"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line375"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line376"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line377"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__item</a>" <span class="attribute-name">data-filter</span>="<a class="attribute-value">.porsche</a>"&gt;</span><span>
+<span id="line378"></span>                            </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo1.png">assets/img/logo1.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>"&gt;</span><span>
+<span id="line379"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line380"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line381"></span>                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line382"></span>
+<span id="line383"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__content grid</a>"&gt;</span><span>
+<span id="line384"></span>
+<span id="line385"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__card mix tesla</a>"&gt;</span><span>
+<span id="line386"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shape shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line387"></span>
+<span id="line388"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__title</a>"&gt;</span><span>Tesla</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line389"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__subtitle</a>"&gt;</span><span>Model X</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line390"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/featured1.png">assets/img/featured1.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">featured__img</a>"&gt;</span><span>
+<span id="line391"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__price</a>"&gt;</span><span>$98,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line392"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button featured__button</a>"&gt;</span><span>
+<span id="line393"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line394"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line395"></span>
+<span id="line396"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line397"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__card mix tesla</a>"&gt;</span><span>
+<span id="line398"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shape shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line399"></span>
+<span id="line400"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__title</a>"&gt;</span><span>Tesla</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line401"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__subtitle</a>"&gt;</span><span>Model 3</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line402"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/featured2.png">assets/img/featured2.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">featured__img</a>"&gt;</span><span>
+<span id="line403"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__price</a>"&gt;</span><span>$45,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line404"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button featured__button</a>"&gt;</span><span>
+<span id="line405"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line406"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line407"></span>
+<span id="line408"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line409"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__card mix audi</a>"&gt;</span><span>
+<span id="line410"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shape shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line411"></span>
+<span id="line412"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__title</a>"&gt;</span><span>Audi</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line413"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__subtitle</a>"&gt;</span><span>E-tron</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line414"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/featured3.png">assets/img/featured3.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">featured__img</a>"&gt;</span><span>
+<span id="line415"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__price</a>"&gt;</span><span>$175,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line416"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button featured__button</a>"&gt;</span><span>
+<span id="line417"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line418"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line419"></span>
+<span id="line420"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line421"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__card mix porsche</a>"&gt;</span><span>
+<span id="line422"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shape shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line423"></span>
+<span id="line424"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line425"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__subtitle</a>"&gt;</span><span>Boxster 987</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line426"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/featured4.png">assets/img/featured4.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">featured__img</a>"&gt;</span><span>
+<span id="line427"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__price</a>"&gt;</span><span>$126,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line428"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button featured__button</a>"&gt;</span><span>
+<span id="line429"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line430"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line431"></span>
+<span id="line432"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line433"></span>                    </span><span>&lt;<span class="start-tag">article</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__card mix porsche</a>"&gt;</span><span>
+<span id="line434"></span>                        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shape shape__smaller</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line435"></span>
+<span id="line436"></span>                        </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__title</a>"&gt;</span><span>Porsche</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line437"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__subtitle</a>"&gt;</span><span>Panamera</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line438"></span>                        </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/featured5.png">assets/img/featured5.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">featured__img</a>"&gt;</span><span>
+<span id="line439"></span>                        </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">featured__price</a>"&gt;</span><span>$175,900</span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line440"></span>                        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">button featured__button</a>"&gt;</span><span>
+<span id="line441"></span>                            </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-shopping-bag-2-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line442"></span>                        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line443"></span>
+<span id="line444"></span>                    </span><span>&lt;/<span class="end-tag">article</span>&gt;</span><span>
+<span id="line445"></span>
+<span id="line446"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line447"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line448"></span>
+<span id="line449"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line450"></span>       
+<span id="line451"></span>
+<span id="line452"></span>        </span><span class="comment">&lt;!--==================== OFFER ====================--&gt;</span><span>
+<span id="line453"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">offer section</a>"&gt;</span><span>
+<span id="line454"></span>
+<span id="line455"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">offer__container container grid</a>"&gt;</span><span>
+<span id="line456"></span>
+<span id="line457"></span>                </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/offer-bg.png">assets/img/offer-bg.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">offer__bg</a>"&gt;</span><span>
+<span id="line458"></span>
+<span id="line459"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">offer__data</a>"&gt;</span><span>
+<span id="line460"></span>                    </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>="<a class="attribute-value">section__title offer__title</a>"&gt;</span><span>
+<span id="line461"></span>                        Do You Want To Receive </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span> Special Offers?
+<span id="line462"></span>                    </span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line463"></span>
+<span id="line464"></span>                    </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">offer__description</a>"&gt;</span><span>Be the first to receive all the information about our
+<span id="line465"></span>                        products and new cars by email by subscribing to our
+<span id="line466"></span>                        mailing list.</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line467"></span>
+<span id="line468"></span>                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">button</a>"&gt;</span><span>Subscribe Now</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line469"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line470"></span>
+<span id="line471"></span>                </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/offer.png">assets/img/offer.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">offer__img</a>"&gt;</span><span>
+<span id="line472"></span>
+<span id="line473"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line474"></span>
+<span id="line475"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line476"></span>
+<span id="line477"></span>        </span><span class="comment">&lt;!--==================== LOGOS ====================--&gt;</span><span>
+<span id="line478"></span>        </span><span>&lt;<span class="start-tag">section</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos section</a>"&gt;</span><span>
+<span id="line479"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__container container grid</a>"&gt;</span><span>
+<span id="line480"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line481"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo1.png">assets/img/logo1.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line482"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line483"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line484"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo6.png">assets/img/logo6.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line485"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line486"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line487"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo5.png">assets/img/logo5.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line488"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line489"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line490"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo4.png">assets/img/logo4.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line491"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line492"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line493"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo3.png">assets/img/logo3.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line494"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line495"></span>                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">logos__content</a>"&gt;</span><span>
+<span id="line496"></span>                    </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/img/logo2.png">assets/img/logo2.png</a>" <span class="attribute-name">alt</span>="<a class="attribute-value"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">logos__img</a>"&gt;</span><span>
+<span id="line497"></span>                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line498"></span>
+<span id="line499"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line500"></span>
+<span id="line501"></span>
+<span id="line502"></span>
+<span id="line503"></span>        </span><span>&lt;/<span class="end-tag">section</span>&gt;</span><span>
+<span id="line504"></span>    </span><span>&lt;/<span class="end-tag">main</span>&gt;</span><span>
+<span id="line505"></span>
+<span id="line506"></span>    </span><span class="comment">&lt;!--==================== FOOTER ====================--&gt;</span><span>
+<span id="line507"></span>    </span><span>&lt;<span class="start-tag">footer</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer section</a>"&gt;</span><span>
+<span id="line508"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__big</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line509"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">shapeX shape__small</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line510"></span>
+<span id="line511"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__container container grid</a>"&gt;</span><span>
+<span id="line512"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__content</a>"&gt;</span><span>
+<span id="line513"></span>                </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__logo</a>"&gt;</span><span>
+<span id="line514"></span>                    </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-steering-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line515"></span>                    NextCar
+<span id="line516"></span>                </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line517"></span>                </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__description</a>"&gt;</span><span>
+<span id="line518"></span>                    We offer the best cars of </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span>
+<span id="line519"></span>                    the most recognized brands in </span><span>&lt;<span class="start-tag">br</span>&gt;</span><span>
+<span id="line520"></span>                    the world.
+<span id="line521"></span>                </span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line522"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line523"></span>
+<span id="line524"></span>
+<span id="line525"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__content</a>"&gt;</span><span>
+<span id="line526"></span>
+<span id="line527"></span>                </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__title</a>"&gt;</span><span>Company </span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line528"></span>
+<span id="line529"></span>                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>
+<span id="line530"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line531"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>About</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line532"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line533"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line534"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Cars</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line535"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line536"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line537"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>History</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line538"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line539"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line540"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Shop</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line541"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line542"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line543"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line544"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line545"></span>                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line546"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line547"></span>
+<span id="line548"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__content</a>"&gt;</span><span>
+<span id="line549"></span>                </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__title</a>"&gt;</span><span>Information </span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line550"></span>                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>
+<span id="line551"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line552"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Request a quote</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line553"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line554"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line555"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Find a dealer</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line556"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line557"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line558"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Contact us</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line559"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line560"></span>                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+<span id="line561"></span>                        </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css#">#</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__links</a>"&gt;</span><span>Services</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line562"></span>                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line563"></span>
+<span id="line564"></span>                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line565"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line566"></span>
+<span id="line567"></span>            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__content</a>"&gt;</span><span>
+<span id="line568"></span>                </span><span>&lt;<span class="start-tag">h3</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__title</a>"&gt;</span><span> Follow us </span><span>&lt;/<span class="end-tag">h3</span>&gt;</span><span>
+<span id="line569"></span>
+<span id="line570"></span>                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__social</a>"&gt;</span><span>
+<span id="line571"></span>                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css"></a>" <span class="attribute-name">target</span>="<a class="attribute-value">_blank</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__social-link</a>"&gt;</span><span>
+<span id="line572"></span>                        </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-facebook-fill</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line573"></span>                    </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line574"></span>                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css"></a>" <span class="attribute-name">target</span>="<a class="attribute-value">_blank</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__social-link</a>"&gt;</span><span>
+<span id="line575"></span>                        </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-instagram-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line576"></span>                    </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line577"></span>                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css"></a>" <span class="attribute-name">target</span>="<a class="attribute-value">_blank</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__social-link</a>"&gt;</span><span>
+<span id="line578"></span>                        </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-twitter-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line579"></span>                    </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line580"></span>                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line581"></span>            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line582"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line583"></span>        </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>="<a class="attribute-value">footer__copy</a>"&gt;</span><span>
+<span id="line584"></span>            <span class="entity"><span>&amp;</span>#169;</span> </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">target</span>="<a class="attribute-value">_blank</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/abdullahmoin.web.app">abdullahmoin.web.app</a>" <span class="attribute-name">class</span>="<a class="attribute-value">footer__dev-link</a>"&gt;</span><span>abdullah-moin.</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> All rigths
+<span id="line585"></span>            reserved
+<span id="line586"></span>            </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">id</span>="<a class="attribute-value">date</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+<span id="line587"></span>        </span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+<span id="line588"></span>    </span><span>&lt;/<span class="end-tag">footer</span>&gt;</span><span>
+<span id="line589"></span>
+<span id="line590"></span>
+<span id="line591"></span>    </span><span class="comment">&lt;!--========== SCROLL UP ==========--&gt;</span><span>
+<span id="line592"></span>
+<span id="line593"></span>    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/myCustom.css"></a>" <span class="attribute-name">class</span>="<a class="attribute-value">scrollup</a>" <span class="attribute-name">id</span>="<a class="attribute-value">scroll-up</a>"&gt;</span><span>
+<span id="line594"></span>        </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>="<a class="attribute-value">ri-arrow-up-s-line</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>
+<span id="line595"></span>    </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+<span id="line596"></span>
+<span id="line597"></span>
+<span id="line598"></span>    </span><span class="comment">&lt;!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============--&gt;</span><span>
+<span id="line599"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/js/scrollrevealAnimation.min.js">assets/js/scrollrevealAnimation.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line600"></span>
+<span id="line601"></span>    </span><span class="comment">&lt;!--=============== SWIPER JS - PRODUCT SLIDER ===============--&gt;</span><span>
+<span id="line602"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/js/swiper-bundle.min.js">/assets/js/swiper-bundle.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line603"></span>
+<span id="line604"></span>    </span><span class="comment">&lt;!--=============== MIXITUP JS - FILTER PRODUCT ===============--&gt;</span><span>
+<span id="line605"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/js/mixitup.min.js">assets/js/mixitup.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line606"></span>
+<span id="line607"></span>    </span><span class="comment">&lt;!--=============== MAIN JS ===============--&gt;</span><span>
+<span id="line608"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://mynext-car.web.app/assets/css/assets/css/assets/js/main.js">assets/js/main.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line609"></span>
+<span id="line610"></span>
+<span id="line611"></span>
+<span id="line612"></span></span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
+<span id="line613"></span>
+<span id="line614"></span>
+<span id="line615"></span>
+<span id="line616"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span></span></pre></body></html>
